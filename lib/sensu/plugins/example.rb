@@ -2,8 +2,9 @@ require "sensu/plugins/example/version"
 
 module Sensu
   module Plugins
+    # This is an example sensu-plugin for demonstration. It is not intened to
+    # be used in production environment.
     module Example
-      # Your code goes here...
     end
   end
 end
