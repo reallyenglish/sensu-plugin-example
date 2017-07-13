@@ -4,7 +4,7 @@
  - Feature Idea
  - Documentation Report
 
-##### ROLE VERSION
+##### GEM VERSION
 <!--- Mention the gem version -->
 ```
 
