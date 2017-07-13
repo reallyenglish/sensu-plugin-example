@@ -23,6 +23,8 @@ Metrics/BlockLength:
     # Vagrantfile is not application code, rather, configuration file and
     # blocks in it tends to be long
     - "**/Vagrantfile"
+    # gemspec tends to have long block
+    - "**/*.gemspec"
   ExcludedMethods:
     # these two exclude long blocks in `_spec.rb`
     - describe
