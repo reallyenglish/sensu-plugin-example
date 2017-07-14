@@ -18,7 +18,7 @@ check_file.rb [-d] [--version] file
 
 You cannot install this plug-in using standard procedures described in
 [Installation Instructions](http://sensu-plugins.io/docs/installation_instructions.html)
-because is not, and will not, be published to `rubygem.org`.
+because it is not, and will not, be published to `rubygem.org`.
 
 Use
 [ansible-role-sensu-plugins-bundle](https://github.com/reallyenglish/ansible-role-sensu-plugins-bundle).
