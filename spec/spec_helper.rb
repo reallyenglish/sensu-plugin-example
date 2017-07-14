@@ -1,5 +1,16 @@
 require "bundler/setup"
-require "sensu/plugins/example"
+require "sensu/plugin/example"
+
+module Sensu
+  module Plugin
+    class CLI
+      # rubocop:disable Style/ClassVars:
+      # disable autorun at_exit during tests
+      @@autorun = false
+      # rubocop:enable Style/ClassVars:
+    end
+  end
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -12,3 +12,6 @@ end
 
 desc "Run tests"
 task test: [:spec, :rubocop]
+
+desc "Run tests and build"
+task ci: [:test, :build]
